@@ -56,5 +56,5 @@ def register_middleware(app: FastAPI):
     #                     allow_credentials=True,
     #                     )
     
-    app.add_middleware(TrustedHostMiddleware,allowed_hosts=["*"])
+    app.add_middleware(TrustedHostMiddleware,allowed_hosts=["*","task-collab-api-0wd3.onrender.com"])
     
